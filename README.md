@@ -20,4 +20,8 @@ The http://192.168.86.75:5000/ will be the address on you site
 
 ## Videos
 The videos that you want to host should be placed in the static folder and thats it you have a working local YOUTUBE
+
+### Future revisions 
+Right now the player can only play mp4's so i plan to add other formats too.
+
  
