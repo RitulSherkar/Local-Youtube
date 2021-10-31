@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">OURtube</a>      
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      {% for i in range(l |length) %}
+      <button>
+        <a href= 'video/{{l[i]}}' style="text-decoration:none; color: black;">  
+          {{ l[i] }}
+        </a>
+      </button>
+      {% endfor %}
+</head>
+</body>
+</html>
